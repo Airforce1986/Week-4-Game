@@ -1,0 +1,66 @@
+html {
+	box-sizing: border-box;
+}
+
+body { 
+	min-height: 100vh;
+    background: url("../images/geobackground.png");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+h3 {
+	margin: 20px 0px 10px 0px;
+	letter-spacing: 3px;
+}
+
+.header {
+	padding: 70px 0px 0px 0px;
+	color: grey;
+}
+
+h1, h3, #magicNumber, #totalScore, #wins, #losses, .score {
+	color: #5073aa;
+}
+
+h1 {
+	color: black;
+	margin: 55px 0px 75px 0px;
+	letter-spacing: 12px;
+}
+
+.crystalimg {
+	width: 150px;
+	margin: 30px auto;
+}
+
+.directions {
+	color: grey;
+	text-align: center;
+	padding: 20px 85px;
+}
+
+.score {
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+#winOrLose {
+	color: #a182bc;
+}
+
+.total, .scores, .directions {
+	margin: auto;
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #a182bc;
+	letter-spacing: 3px;
+}
